@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="190" viewBox="0 0 590 190" role="img" aria-label="Knowledge Graph RAG">
+<defs>
+  <clipPath id="c"><rect width="590" height="190" rx="18"/></clipPath>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1324"/><stop offset="1" stop-color="#070B14"/></linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1"><stop offset="0" stop-color="#F472B6" stop-opacity=".22"/><stop offset="1" stop-color="#F472B6" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+    <stop offset="0" stop-color="#F472B6" stop-opacity="0"/><stop offset=".5" stop-color="#F472B6" stop-opacity=".9"/><stop offset="1" stop-color="#F472B6" stop-opacity="0"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;890 0;890 0" keyTimes="0;.55;1" dur="7s" begin="2.7s" repeatCount="indefinite"/>
+  </linearGradient>
+</defs>
+<style>
+  .t{font:650 22px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#F8FAFC;letter-spacing:-.01em}
+  .desc{font:400 14.5px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#94A3B8}
+  .chip{fill:#0F1B33;stroke:#F472B6;stroke-opacity:.35}
+  .chipt{font:500 12px 'JetBrains Mono','SF Mono','Cascadia Code',Consolas,monospace;fill:#F472B6;text-anchor:middle}
+  .arrow{font:500 18px 'Segoe UI Variable Display','Segoe UI',Inter,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#475569}
+  .bob{animation:bob 5s ease-in-out -2.7s infinite}
+  .shadow{opacity:.45;transform-box:fill-box;transform-origin:center;animation:sh 5s ease-in-out -2.7s infinite}
+  @keyframes bob{0%,100%{transform:translateY(-3px)}50%{transform:translateY(3px)}}
+  @keyframes sh{0%,100%{opacity:.25;transform:scale(.85)}50%{opacity:.5;transform:scale(1)}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#c)">
+  <rect width="590" height="190" fill="url(#bg)"/>
+  <circle cx="0" cy="0" r="300" fill="url(#glow)"/>
+  <g transform="translate(30 66)"><ellipse cx="22" cy="41.519999999999996" rx="19.8" ry="4" fill="#000" class="shadow"/><g class="bob"><path d="M0 -12.76 L22 0 L22 25.52 L0 12.76 Z" fill="#F472B6" fill-opacity=".55"/><path d="M22 0 L44 -12.76 L44 12.76 L22 25.52 Z" fill="#F472B6" fill-opacity=".3"/><path d="M0 -12.76 L22 -25.52 L44 -12.76 L22 0 Z" fill="#F472B6" fill-opacity=".9"/><path d="M0 -12.76 L22 -25.52 L44 -12.76 L22 0 Z M0 -12.76 L22 0 L22 25.52 L0 12.76 Z M22 0 L44 -12.76 L44 12.76 L22 25.52 Z" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width=".8"/></g></g>
+  <text x="96" y="58" class="t">Knowledge Graph RAG</text>
+  <text x="552" y="58" class="arrow">↗</text>
+  <text x="96" y="92" class="desc">Grafo de conhecimento com NetworkX e LangChain para</text><text x="96" y="114" class="desc">consultas em linguagem natural.</text>
+  <rect x="96" y="142" width="85" height="26" rx="13" class="chip"/><text x="138" y="159" class="chipt">LangChain</text><rect x="188.60000000000002" y="142" width="40" height="26" rx="13" class="chip"/><text x="209" y="159" class="chipt">RAG</text><rect x="236.8" y="142" width="85" height="26" rx="13" class="chip"/><text x="279" y="159" class="chipt">Streamlit</text>
+</g>
+<rect x=".5" y=".5" width="589" height="189" rx="17.5" fill="none" stroke="#1E293B"/>
+<rect x=".5" y=".5" width="589" height="189" rx="17.5" fill="none" stroke="url(#sheen)" stroke-width="1.2"/>
+</svg>
