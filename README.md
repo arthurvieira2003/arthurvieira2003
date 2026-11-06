@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Arthur%20Vieira&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Developer%20%C2%B7%20Integra%C3%A7%C3%B5es%20%C2%B7%20Dados%20%26%20IA&descAlignY=58&descSize=18" alt="Arthur Vieira" />
+  <img src="./assets/header.svg" alt="Arthur Vieira" />
 </p>
 
 <p align="center">
@@ -59,5 +59,5 @@ Em paralelo, estudo e experimento com **ciência de dados, machine learning e si
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=100&section=footer" />
+  <img src="./assets/footer.svg" />
 </p>
